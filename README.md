@@ -73,15 +73,6 @@ streamlit run streamlit_app.py
   - Number of frames containing violations
   - Results for each analyzed frame
 
- ## Optional Construction Animation (Lottie)
-
- The UI already includes CSS animations that work without any additional setup. If you want to add a ready-made construction-themed animation:
-
- 1. Go to  LottieFiles  and search for **“construction”** or **“hard hat”**.
-2. Open any free animation.
-3. Click **Embed → Lottie URL** and copy the URL. It should end with `.json`.
-4. Paste the URL into the `HERO_LOTTIE_URL` variable at the beginning of `streamlit_app.py`.
-
  ## Video Processing Note
 
  The video endpoint processes the video **after it has been uploaded**, rather than in real time. This batch-processing approach is sufficient for the project requirements.
